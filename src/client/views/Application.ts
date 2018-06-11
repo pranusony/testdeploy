@@ -25,7 +25,7 @@ export class Application {
     constructor(appNode:HTMLElement) {
 
         this.appNode = appNode;
-        this.sayHiButton = document.getElementById("sayHiButton") as HTMLButtonElement;
+        this.sayHiButton = document.getElementById("sayHi") as HTMLButtonElement;
         this.setUserButton = document.getElementById("setUserButton") as HTMLButtonElement;
         this.setUserFirstNameButton = document.getElementById("setUserFirstNameButton") as HTMLButtonElement;
         this.getAPIValueButton = document.getElementById("getAPIValueButton") as HTMLButtonElement;
