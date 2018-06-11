@@ -33,7 +33,7 @@ export class Application {
         this.setUserNameInput = document.getElementById("setUserNameInput") as HTMLInputElement;
         this.setUserFirstNameInput = document.getElementById("setUserFirstNameInput") as HTMLInputElement;
 
-        this.sayHiResponseLabel = document.getElementById("sayHiResponseLabel") as HTMLSpanElement;
+        this.sayHiResponseLabel = document.getElementById("sayHiResponse") as HTMLSpanElement;
         this.currentUserLabel = document.getElementById("currentUserLabel");
         this.firstNameLabel = document.getElementById("firstNameLabel");
         this.apiValueLabel = document.getElementById("apiValueLabel");
